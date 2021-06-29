@@ -7,10 +7,10 @@ on:
     types: [started]
     
 env:              
-  ROM_URL: 'https://dl.google.com/developers/android/sc/images/ota/redfin-ota-spp2.210219.008-3d61e529.zip'
-  ZIP_NAME: 'update.zip'
-  OS_TYPE: 'Generic'
-  BUILD_TYPE: 'ab'
+  ROM_URL: 'http://bigota.d.miui.com/V11.0.8.0.PFHCNXM/miui_VIOLET_V11.0.8.0.PFHCNXM_3b7c27c482_9.0.zip'
+  ZIP_NAME: 'miui_VIOLET_V11.0.8.0.PFHCNXM_3b7c27c482_9.0.zip'
+  OS_TYPE: 'miui'
+  BUILD_TYPE: 'a'
   REPACK_NAME: 'SGSI.zip'
   VERSION: '12'
   upload_action-gh-release: 'true'
